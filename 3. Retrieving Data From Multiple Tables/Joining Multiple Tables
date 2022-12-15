@@ -19,7 +19,9 @@ Using payments, clients, and payment_methods tables
 USE sql_invoicing;
 
 SELECT 
-	c.client_id,
+    p.date,
+    p.invoice_id,
+    p.amount,
     c.name,
     pm.name as 'payment method'
     
