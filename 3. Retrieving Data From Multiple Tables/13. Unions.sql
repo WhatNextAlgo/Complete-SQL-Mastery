@@ -31,7 +31,7 @@ SELECT
     points,
 	'Silver'  AS type
 FROM customers
-WHERE points > 2000 and  points  <= 3000
+WHERE points between 2000 and  3000
     UNION
 SELECT 
 	customer_id,
@@ -41,3 +41,4 @@ SELECT
 FROM customers
 WHERE points > 3000
 Order By first_name
+
