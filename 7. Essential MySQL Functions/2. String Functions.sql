@@ -1,0 +1,12 @@
+SELECT Length('sky');
+SELECT Upper('sky');
+SELECT Lower('Sky');
+SELECT LTRIM(' Sky'); 
+SELECT RTRIM('Sky   ');
+SELECT TRIM('Sky   ');
+SELECT LEFT('Kindergarden',4);
+SELECT RIGHT('Kindergarden',4);
+SELECT SUBSTRING('Kindergarden',3,5);
+SELECT LOCATE('Q','Kindergarden');
+SELECT REPLACE('Kindergarden','garden','');
+SELECT CONCAT('Kinder','garden');
