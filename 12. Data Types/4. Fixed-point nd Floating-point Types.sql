@@ -1,0 +1,8 @@
+/*
+RATIONALS:
+
+DECIMAL(p,s)  DECMIAL(9,2) => 1234567.89
+FLOAT  4b
+DOUBLE 8b
+
+*/
