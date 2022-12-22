@@ -1,7 +1,8 @@
 /*
 Order Of Columns :
 	1. Put the most frequently used columns first.
-  2. Put the columns with a higher cardinality first. 
+  	2. Put the columns with a higher cardinality first. 
+	3. Take your queries into account
 */
 
 SELECT COUNT(DISTINCT STATE),
