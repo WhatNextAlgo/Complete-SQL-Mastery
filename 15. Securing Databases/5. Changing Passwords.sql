@@ -1,0 +1,2 @@
+SET PASSWORD FOR john = '12345';
+SET PASSOWRD = '123456789' -- current users
